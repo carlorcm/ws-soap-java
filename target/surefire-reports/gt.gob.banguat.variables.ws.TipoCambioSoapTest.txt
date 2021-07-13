@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: gt.gob.banguat.variables.ws.TipoCambioSoapTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.046 sec <<< FAILURE!
+gt.gob.banguat.variables.ws.TipoCambioSoapTest.testVariablesDisponibles()  Time elapsed: 1.044 sec  <<< FAILURE!
+com.sun.xml.ws.model.RuntimeModelerException: No existe una anotación de WebService en la clase: gt.gob.banguat.variables.ws.TipoCambioSoap
+	at com.sun.xml.ws.model.RuntimeModeler.buildRuntimeModel(RuntimeModeler.java:239)
+	at com.sun.xml.ws.db.DatabindingImpl.<init>(DatabindingImpl.java:70)
+	at com.sun.xml.ws.db.DatabindingProviderImpl.create(DatabindingProviderImpl.java:44)
+	at com.sun.xml.ws.db.DatabindingProviderImpl.create(DatabindingProviderImpl.java:28)
+	at com.sun.xml.ws.db.DatabindingFactoryImpl.createRuntime(DatabindingFactoryImpl.java:90)
+	at com.sun.xml.ws.client.WSServiceDelegate.buildRuntimeModel(WSServiceDelegate.java:852)
+	at com.sun.xml.ws.client.WSServiceDelegate.createSEIPortInfo(WSServiceDelegate.java:869)
+	at com.sun.xml.ws.client.WSServiceDelegate.addSEI(WSServiceDelegate.java:832)
+	at com.sun.xml.ws.client.WSServiceDelegate.getPort(WSServiceDelegate.java:421)
+	at com.sun.xml.ws.client.WSServiceDelegate.getPort(WSServiceDelegate.java:390)
+	at com.sun.xml.ws.client.WSServiceDelegate.getPort(WSServiceDelegate.java:372)
+	at javax.xml.ws.Service.getPort(Service.java:169)
+	at gt.gob.banguat.variables.ws.TipoCambio.getTipoCambioSoap(TipoCambio.java:74)
+	at gt.gob.banguat.variables.ws.TipoCambioSoapTest.testVariablesDisponibles(TipoCambioSoapTest.java:11)
+
