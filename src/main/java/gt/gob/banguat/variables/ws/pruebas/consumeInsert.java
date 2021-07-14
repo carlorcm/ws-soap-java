@@ -10,10 +10,25 @@ import gt.gob.banguat.variables.ws.Variable;
 
 public class consumeInsert {
 	
-	public static void main(String[] args) throws Exception {
-	    //testVariablesDisponibles();
+	public static void main(String[] args) throws Exception {	    
 		createTable();
+		testVariablesDisponibles();
 	  }
+	
+	public static void insert(int var1in,String var2in) throws Exception{
+		final int var1 = var1in;
+		final String var2 = var2in;
+		try {
+			Connection conn = getConnection();
+			PreparedStatement posted = conn.prepareStatement("INSERT INTO cat_moneda (id_moneda,descripcion_moneda) VALUES('"+var1+"','"+var2+"')");
+			posted.executeUpdate();
+			
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		finally{System.out.println("Function INSERT completed");};
+		
+	}
 	
 	public static void testVariablesDisponibles() {
 		TipoCambioSoap servicio = new TipoCambio().getTipoCambioSoap();
@@ -21,6 +36,12 @@ public class consumeInsert {
 		
 		for (Variable array : servicio.variablesDisponibles().getVariables().getVariable()) {
 			if (array.getMoneda() % 2 == 0) {
+				try {
+					insert(array.getMoneda(),array.getDescripcion());
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				System.out.println("Codigo de Moneda: "+array.getMoneda()+" Nombre de la moneda: "+array.getDescripcion());
 		    } 
 			
