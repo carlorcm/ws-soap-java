@@ -6,7 +6,9 @@ import java.sql.PreparedStatement;
 
 import gt.gob.banguat.variables.ws.TipoCambio;
 import gt.gob.banguat.variables.ws.TipoCambioSoap;
+import gt.gob.banguat.variables.ws.Var;
 import gt.gob.banguat.variables.ws.Variable;
+
 
 public class consumeInsert {
 	
@@ -26,11 +28,11 @@ public class consumeInsert {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-		finally{System.out.println("Function INSERT completed");};
 		
 	}
 	
 	public static void testVariablesDisponibles() {
+		
 		TipoCambioSoap servicio = new TipoCambio().getTipoCambioSoap();
 		//int tm = servicio.variablesDisponibles().getTotalItems();
 		
@@ -46,6 +48,14 @@ public class consumeInsert {
 		    } 
 			
 		}				
+	}
+	
+	public static void tipoCambioRango() {
+		TipoCambioSoap servicio = new TipoCambio().getTipoCambioSoap();
+		for (Var array : servicio.tipoCambioRango("30/07/2020", "31/07/2020").getVars().getVar()) {
+			System.out.println(array.getFecha()+" "+array.getMoneda()+" Compra: "+array.getCompra()+" Venta: "+array.getVenta());
+		}		
+		
 	}
 	
 	public static void createTable() throws Exception {
@@ -72,8 +82,7 @@ public class consumeInsert {
 			String username = "root";
 			String password = "Campos1100#";
 			Class.forName(driver);
-			Connection conn = DriverManager.getConnection(url,username,password);
-			System.out.println("Connected to the database...");
+			Connection conn = DriverManager.getConnection(url,username,password);			
 			return conn;
 			
 		} catch (Exception e) {

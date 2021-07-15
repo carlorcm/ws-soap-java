@@ -3,20 +3,23 @@
   <groupId>com.pronetback</groupId>
   <artifactId>pronet-ws-soap</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+		<java.version>11</java.version>
+	</properties>
   <!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
   <dependencies>
-<dependency>
-    <groupId>javax.xml.ws</groupId>
-    <artifactId>jaxws-api</artifactId>
-    <version>2.3.1</version>
-</dependency>
-<dependency>
-  <groupId>com.sun.xml.ws</groupId>
-  <artifactId>jaxws-ri</artifactId>
-  <version>2.3.2</version>
-  <type>pom</type>
-</dependency>
-</dependencies>
+		<dependency>
+		    <groupId>javax.xml.ws</groupId>
+		    <artifactId>jaxws-api</artifactId>
+		    <version>2.3.1</version>
+		</dependency>
+		<dependency>
+		  <groupId>com.sun.xml.ws</groupId>
+		  <artifactId>jaxws-ri</artifactId>
+		  <version>2.3.2</version>
+		  <type>pom</type>
+		</dependency>
+	</dependencies>
 
   
   <build>

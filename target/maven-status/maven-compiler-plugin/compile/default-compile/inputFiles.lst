@@ -3,15 +3,14 @@
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioDiaResponse.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/DataVariable.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/ObjectFactory.java
-/Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/javax/jws/WebParam.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/VariablesResponse.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/VarDolar.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/ArrayOfVarDolar.java
-/Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/javax/jws/WebService.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/ArrayOfVariable.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/Variable.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/package-info.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/VariablesDisponibles.java
+/Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/pruebas/consumeInsert.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioRango.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/ArrayOfVar.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioFechaInicialMoneda.java
@@ -23,9 +22,7 @@
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/VariablesDisponiblesResponse.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioFechaInicialResponse.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioRangoMonedaResponse.java
-/Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/javax/jws/WebMethod.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioSoap.java
-/Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/javax/jws/WebResult.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambio.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioRangoResponse.java
 /Users/carloscampos/Documents/workspace-spring-tool-suite-4-4.11.0.RELEASE/pronet-ws-soap/src/main/java/gt/gob/banguat/variables/ws/TipoCambioRangoMoneda.java

@@ -11,7 +11,7 @@ public class TipoCambioSoapTest {
 	@Test
 	public void testVariablesDisponibles() {
 		TipoCambioSoap servicio = new TipoCambio().getTipoCambioSoap();
-		int tm = servicio.variablesDisponibles().getTotalItems();
+		//int tm = servicio.variablesDisponibles().getTotalItems();
 		
 		for (Variable array : servicio.variablesDisponibles().getVariables().variable) {
 			if (array.moneda % 2 == 0) {
